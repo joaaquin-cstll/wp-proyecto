@@ -48,7 +48,7 @@ add_theme_support( 'post-thumbnails' );
         if ( !empty($query->post) ) {
             $page = $query->post;
         } else {
-            $page = numll;
+            $page = null;
         }
 
         return $page;
@@ -85,4 +85,49 @@ add_theme_support( 'post-thumbnails' );
 
     }
     add_action('widgets_init' , 'my_theme_widget_area');
-    
+
+    /**
+    * Devuelve la URL de una pagina a partir del nombre de su plantilla
+    * (RECIPES, NEWS, ARCHIVES, CONTACT) o, si no, de su titulo.
+    * Si no existe la pagina, devuelve la home para no romper el menu.
+    * @param $name  String  Nombre de plantilla / titulo de la pagina
+    * @return       String  URL
+    */
+
+    function barracuda_page_link( $name ){
+
+        $templates = array(
+            'RECIPES'  => 'recipes.php',
+            'NEWS'     => 'news.php',
+            'ARCHIVES' => 'archives.php',
+            'CONTACT'  => 'contact.php',
+        );
+
+        // 1) Buscar por plantilla asignada
+        if ( isset( $templates[ $name ] ) ) {
+            $pages = get_posts( array(
+                'post_type'      => 'page',
+                'post_status'    => 'publish',
+                'posts_per_page' => 1,
+                'meta_key'       => '_wp_page_template',
+                'meta_value'     => $templates[ $name ],
+            ) );
+            if ( ! empty( $pages ) ) {
+                return get_permalink( $pages[0]->ID );
+            }
+        }
+
+        // 2) Buscar por titulo
+        $by_title = get_posts( array(
+            'post_type'      => 'page',
+            'post_status'    => 'publish',
+            'posts_per_page' => 1,
+            'title'          => $name,
+        ) );
+        if ( ! empty( $by_title ) ) {
+            return get_permalink( $by_title[0]->ID );
+        }
+
+        // 3) Fallback
+        return home_url( '/' );
+    }
