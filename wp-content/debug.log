@@ -1,0 +1,169 @@
+[10-Nov-2026 13:03:18 UTC] Automatic updates starting...
+[10-Nov-2026 13:03:18 UTC] Automatic updates complete.
+[16-Nov-2026 11:49:31 UTC] Automatic updates starting...
+[16-Nov-2026 11:49:31 UTC] Automatic updates complete.
+[16-Nov-2026 12:11:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/front-page.php(43): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:12:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/front-page.php(43): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:12:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:12:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:12:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/front-page.php(43): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:12:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:12:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:14:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/front-page.php(43): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:15:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/front-page.php(43): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:15:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:15:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/index.php(42): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
+[16-Nov-2026 12:16:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function barracuda_page_link() in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php:10
+Stack trace:
+#0 /var/www/wordpress/wp-includes/template.php(882): require()
+#1 /var/www/wordpress/wp-includes/template.php(815): load_template()
+#2 /var/www/wordpress/wp-includes/general-template.php(206): locate_template()
+#3 /var/www/wordpress/wp-content/themes/BarRacuda/front-page.php(43): get_template_part()
+#4 /var/www/wordpress/wp-includes/template-loader.php(132): include('...')
+#5 /var/www/wordpress/wp-blog-header.php(19): require_once('...')
+#6 /var/www/wordpress/index.php(17): require('...')
+#7 {main}
+  thrown in /var/www/wordpress/wp-content/themes/BarRacuda/nav.php on line 10
